@@ -70,3 +70,6 @@ Here we see a page `Results.aspx`. .aspx is a giveaway to the technology being u
 
 ![Mens#Suits](https://rhildred.github.io/razordotnetcorepages/readmeimages/MensSuits.PNG "Mens#Suits")
 
+![](https://rhildred.github.io/razordotnetcorepages/readmeimages/MVCLayout.PNG)
+
+![](https://rhildred.github.io/razordotnetcorepages/readmeimages/Controller.PNG)
