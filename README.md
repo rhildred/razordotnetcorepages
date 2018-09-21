@@ -13,12 +13,14 @@ To do this assignment you will need one important design pattern and some techni
 ### Separation of concerns
 
 ![picture from 1988 essay](https://rhildred.github.io/razordotnetcorepages/readmeimages/mvcFrom1988Article.png "picture from 1988 essay")
+picture from Glenn E. Krasner and Stephen Pope's 1988 essay in JOOP - Journal of Object-Oriented Programming
 
 The design pattern is from a 1988 essay. The idea is that if you separate business logic and data from display of data and user input you can easily have multiple views of the same data. In our application we have categories, separating our views. Men's, Women's and accessories. 
 
 ### Multiple views of the same data
 
 ![web monitoring app](https://upload.wikimedia.org/wikipedia/en/a/a7/Octopussy-v09-RRD-Graph-2007.png "web monitoring app")
+License: CC-BY-SA-3.0 granted by Sebastien Thebert on 2017-04-07.
 
 Another place where we see multiple views of the same data is when considering a graph and table of the same data. Here we have a web monitoring app with the table providing a key for the graph above it.
 
