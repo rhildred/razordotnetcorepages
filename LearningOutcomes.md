@@ -1,6 +1,6 @@
 ## Notes
 
-The assignment evaluates the learning objective in the course outline:
+The **assignment** evaluates the learning objective in the course outline:
 
 2.1 Evaluate the various .NET data structures
 	2.1.1 Discuss the use of these ADO.NET components: dataset, data table, data adapter, command, and connection.
@@ -11,4 +11,4 @@ The assignment evaluates the learning objective in the course outline:
 
 It also covers points from the lesson plan relating to the same outcomes. By actually implementing a prototype students will gather the experience they need to perform these outcomes at the evaluation level of the cognitive domain.
 
-The lecture sticks with the 3.3.3 learning outcome. By comparing and contrasting MVC with webform and razor pages architectures students will be well equipped to discuss the outcome.
+The **lecture** sticks with the 3.3.3 learning outcome. By comparing and contrasting MVC with webform and razor pages architectures students will be well equipped to discuss the outcome.
