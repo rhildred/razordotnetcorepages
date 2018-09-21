@@ -6,7 +6,7 @@
 
 Sometimes as developers we make or are given a prototype to turn into an app. Your task is to turn the prototype at  [https://github.com/hexx0960/NorthernThreads/](https://github.com/hexx0960/NorthernThreads/)  into a .net mvc application.
 
-You can see the .html prototype in action at  [https://hexx0960.github.io/NorthernThreads/](https://hexx0960.github.io/NorthernThreads/). It has 13 pages which you will turn into friendly URL based routing. For more marks you can put the clothing products on the web site into a database. Finally you can implement the buy now button and the shopping cart.
+You can see the .html prototype in action at  [https://hexx0960.github.io/NorthernThreads/](https://hexx0960.github.io/NorthernThreads/). It has 13 pages which you will turn into controller based routing. For more marks you can put the clothing products on the web site into a database. Finally you can implement the buy now button and the shopping cart.
 
 To do this assignment you will need one important design pattern and some technical details to back it up.
 
@@ -24,7 +24,7 @@ License: CC-BY-SA-3.0 granted by Sebastien Thebert on 2017-04-07.
 
 Another place where we see multiple views of the same data is when considering a graph and table of the same data. Here we have a web monitoring app with the table providing a key for the graph above it.
 
-The model view controller predates the web by a few years. When the pattern was applied to the web the views were generated from model data by templates. .net MVC uses razor templates to present the model as .html. Generally web MVC also includes friendly URLs.
+The model view controller predates the web by a few years. When the pattern was applied to the web the views were generated from model data by templates. .net MVC uses razor templates to present the model as .html. Web MVC also includes technology independent/SEO friendly URLs.
 
 ## Razor Web Pages
 ### The razor syntax is independent of MVC
@@ -76,12 +76,23 @@ The first thing that I want you to notice about this is the URL. Rather than end
 
 ## MVC blamed for lots of little files.
 
-![](https://rhildred.github.io/razordotnetcorepages/readmeimages/MVCLayout.PNG)
+![lots of little files](https://rhildred.github.io/razordotnetcorepages/readmeimages/MVCLayout.PNG "lots of little files")
 
 In our app we are just replacing repetitive .html files with .cshtml files that only contain what is different about the page. The shared parts of the page are in the Shared folder in the _Layout.cshtml file.
 
 ## The routes are defined in the controller
 
-![](https://rhildred.github.io/razordotnetcorepages/readmeimages/Controller.PNG)
+![controller](https://rhildred.github.io/razordotnetcorepages/readmeimages/Controller.PNG "controller")
 
 This one is the home controller so /Home/Mens, /Home/About ....
+
+## Friendly URL routing can also be technology independent
+
+![friendly routes](https://rhildred.github.io/razordotnetcorepages/readmeimages/FriendlyRoutes.PNG "friendly routes")
+
+It is also possible to make the routes be whatever you want them to be using the nuget Microsoft.AspNet.FriendlyUrls.Core package.
+
+
+
+
+
