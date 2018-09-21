@@ -92,7 +92,11 @@ This one is the home controller so /Home/Mens, /Home/About ....
 
 It is also possible to make the routes be whatever you want them to be using the nuget Microsoft.AspNet.FriendlyUrls.Core package.
 
+## Assignment 9
 
+![Mens#Suits](https://rhildred.github.io/razordotnetcorepages/readmeimages/MensSuits.PNG "Mens#Suits")
+
+This is the background knowledge that you need to do assignment 9. MVC has been blamed for lots of little files and over complication. I think that you will find with assignment 9 that it gives you some structure to separate concerns and reuse code. Creative Laziness!
 
 
 
