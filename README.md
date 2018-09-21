@@ -70,6 +70,16 @@ Here we see a page `Results.aspx`. .aspx is a giveaway to the technology being u
 
 ![Mens#Suits](https://rhildred.github.io/razordotnetcorepages/readmeimages/MensSuits.PNG "Mens#Suits")
 
+The first thing that I want you to notice about this is the URL. Rather than ending in .aspx or .cshtml it is just /Mens. Am I right. Not quite. The url ends in #Suits. The #Suits part is for the browser to go to the #Suits section of the page. Browser routing. The server side routing ends at /Mens.
+
+## MVC blamed for lots of little files.
+
 ![](https://rhildred.github.io/razordotnetcorepages/readmeimages/MVCLayout.PNG)
 
+In our app we are just replacing repetitive .html files with .cshtml files that only contain what is different about the page. The shared parts of the page are in the Shared folder in the _Layout.cshtml file.
+
+## The routes are defined in the controller
+
 ![](https://rhildred.github.io/razordotnetcorepages/readmeimages/Controller.PNG)
+
+This one is the home controller so /Home/Mens, /Home/About ....
