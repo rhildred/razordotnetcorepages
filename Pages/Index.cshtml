@@ -4,31 +4,40 @@
     ViewData["Title"] = "Chat Bot";
 }
 
-<!-- 
-A concept for a chat interface. 
-Try writing a new message! :)
-Follow me here:
-Twitter: https://twitter.com/thatguyemil
-Codepen: https://codepen.io/emilcarlsson/
-Website: http://emilcarlsson.se/
--->
+<!DOCTYPE html>
 
-<div id="frame">
-	<div class="content">
-		<div class="contact-profile">
-			<img src="images/Y.svg" alt="" />
-			<p id="uName">Harvey Specter</p>
-		</div>
-		<div class="messages">
-			<ul>
-			</ul>
-		</div>
-		<div class="message-input">
-			<div class="wrap">
-			<input type="text" placeholder='Write your message to the bot (try "hello" to start)...' />
-			<i class="fa fa-paperclip attachment" aria-hidden="true"></i>
-			<button class="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-			</div>
-		</div>
-	</div>
-</div>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="INFO3130 Assignment 3">
+        <meta name="author" content="Pat Wilken">
+        <title>INFO3130 - Assignment 3</title>
+        <link rel="icon" type="image/png" href="favicon.ico">
+
+        <link href="main.css" rel="stylesheet" />
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="font-awesome.min.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <main>
+            <div id="phone-top"></div>
+            <button id="clear"><i class="fa fa-trash"></i> Clear</button>
+            <section id="message-container">
+                <ul id="messages"></ul>
+            </section>
+            <hr id="input-splitter">
+            <section id="controls">
+                <input type="text" id="msg" placeholder="Message">
+                <button id="send">
+                    <i class="fa fa-paper-plane"></i>
+                </button>
+            </section>
+            <div id="phone-bottom"></div>
+        </main>
+    </body>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="main.js"></script>
+</html>
