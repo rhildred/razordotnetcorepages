@@ -50,6 +50,7 @@ public class User{
                 break;
 
         }
+        System.Diagnostics.Debug.WriteLine(sMessage);
         return sMessage;
     }
 }
